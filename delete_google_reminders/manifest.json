@@ -1,0 +1,19 @@
+{
+  "name": "Google Reminder - Delete Complete",
+  "action": {},
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "version": "0.1",
+  "description": "Deletes completed reminders from https://reminders.google.com/",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
