@@ -1,8 +1,7 @@
 # delete_complete_google_reminders
-Chrome extension to delete completed Google Reminders from https://reminders.google.com/ which cause lag on the mobile views when there are >100s
+Chrome extension to delete completed Google Reminders from https://reminders.google.com/ which cause lag on the mobile/web views when there are >100s
 
-# Flood Depth Damage Calculator
-
+## About
 Google Reminders is a mess. If, like me, you regularly use Google Assistant on your phone to set reminders, you've possibly encountered the terrible, laggy web interface on your phone.
 
 Past/completed reminders remain long after they were used. Personally, I had over 500 at the time of complete frustration. There is no option to delete all past reminders and deleting manually means tapping each one and tapping the bin icon. This causes the app to hang for several seconds, report it is not responding, before recovering and you move onto the next.
@@ -37,3 +36,5 @@ Ogligatory: Your mileage may vary.
 I don't know if the fetch call includes any user specific details (for example, there's an assistant ID).
 
 If it doesn't work for you, delete a reminder and copy the request to replace it in [background.js](delete_complete_google_reminders/delete_google_reminders/background.js)
+
+Note: This code and structure is awful. But it works. :)
