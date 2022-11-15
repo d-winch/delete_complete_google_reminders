@@ -14,7 +14,7 @@ So, I wrote an extension to remove them all.
 
 ## Installation (Unpacked)
 
-Visit chrome://extensions/ and enable the developer mode toggle.
+Visit [chrome://extensions/](chrome://extensions/) and enable the developer mode toggle.
 Then click 'Load Unpacked' and navigate to the directory to enable the extension.
 
 ## Installation (Packed)
@@ -35,6 +35,6 @@ Ogligatory: Your mileage may vary.
 
 I don't know if the fetch call includes any user specific details (for example, there's an assistant ID).
 
-If it doesn't work for you, delete a reminder and copy the request to replace it in [background.js](delete_complete_google_reminders/delete_google_reminders/background.js)
+If it doesn't work for you, delete a reminder and copy the request to replace it in [background.js](delete_google_reminders/background.js)
 
 Note: This code and structure is awful. But it works. :)
